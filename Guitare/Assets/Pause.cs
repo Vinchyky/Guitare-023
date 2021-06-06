@@ -7,6 +7,7 @@ using UnityEngine.Video;
 public class Pause : MonoBehaviour
 {
     public string levelToLoad;
+    public string reload;
     public GameObject PauseWindow;
     public bool statuspause;
     public bool isPaused;
@@ -53,6 +54,11 @@ public class Pause : MonoBehaviour
 
     }
     
+    public void Reload()
+    {
+        SceneManager.LoadScene(reload);
+    }
+
     public void QuitGame()
     {
         Application.Quit();

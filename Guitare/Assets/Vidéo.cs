@@ -6,6 +6,7 @@ using UnityEngine.Video;
 
 public class Vidéo : MonoBehaviour
 {
+    public GameObject Win;
     public VideoPlayer Vp;
     // Start is called before the first frame update
 
@@ -13,7 +14,7 @@ public class Vidéo : MonoBehaviour
     {
         if (Vp.time >= Vp.clip.length)
         {
-            Application.Quit();
+            Win.SetActive(true);
         }
     }
 }

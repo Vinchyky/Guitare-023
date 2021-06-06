@@ -58,7 +58,6 @@ public class Activator : MonoBehaviour
     void OnTriggerExit2D(Collider2D col)
     {
         active=false;
-  
     }
 
     void Addscore()
