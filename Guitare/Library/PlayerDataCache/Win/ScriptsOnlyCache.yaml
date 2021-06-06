@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - PPText
     - Pause
     - SettingsMenu
+    - "Vid\xE9o"
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -17,8 +18,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -92,11 +91,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 3862}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 4340}
+      Script: {instanceID: 3864}
+    - Class: 114
+      Script: {instanceID: 4342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -169,17 +170,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3838}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 4016}
+      Script: {instanceID: 4018}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4194}
+      Script: {instanceID: 4196}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 4628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -483,7 +484,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 1d64c5e66976d5f4ea68f3aa0a50270f
+      Hash: 665ae69621977861c22d6f146f960d80
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Pause
@@ -631,6 +632,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: c0f976354b39f6f0c5b99c28a7e47210
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: "Vid\xE9o"
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
