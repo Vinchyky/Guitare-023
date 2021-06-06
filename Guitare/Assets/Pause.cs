@@ -8,13 +8,18 @@ public class Pause : MonoBehaviour
     public string levelToLoad;
     public GameObject PauseWindow;
     public bool statuspause;
+    public bool isPaused;
 
     public void SetPause()
     {
-        if (statuspause == true)
+        if (statuspause == true) {
+            isPaused = false;
             statuspause = false;
-        else
+        }
+        else {
             statuspause = true;
+            isPaused = true;
+        }
         PauseWindow.SetActive(statuspause);
     }
 

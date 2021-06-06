@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     int multiplier = 2;
     int streak = 0;
-
+    private bool isPaused = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+            if (Input.GetKeyDown(KeyCode.Escape))
+                isPaused = !isPaused;
+
+            if (isPaused)
+                Time.timeScale = 0f;
+            else
+                Time.timeScale = 1f;
     }
 
     void OnTriggerEnter2D(Collider2D col)

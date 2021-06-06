@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - MainMenu
     - Note
     - PPText
+    - Pause
     - SettingsMenu
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -73,6 +74,8 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1470}
+    - Class: 114
       Script: {instanceID: 2118}
     - Class: 114
       Script: {instanceID: 2490}
@@ -81,15 +84,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3028}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 3752}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 3860}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 4338}
+      Script: {instanceID: 3754}
+    - Class: 114
+      Script: {instanceID: 3862}
+    - Class: 114
+      Script: {instanceID: 4340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -154,25 +161,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3028}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 3038}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3836}
+      Script: {instanceID: 3838}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 4194}
     - Class: 114
-      Script: {instanceID: 4288}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4624}
+      Script: {instanceID: 4626}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -180,6 +187,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -472,6 +481,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 1d64c5e66976d5f4ea68f3aa0a50270f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pause
   - hash:
       serializedVersion: 2
       Hash: 54e21c755bc66db70c9fcf8dbab0a84e
